@@ -12,7 +12,9 @@ Hollow-Core Detection
 ### Logic:
 A custom morphological filter that identifies and excludes "thin" or fragmented masks that fail to provide stable textural signals after a $50 \times 50$ pixel erosion.
 
-Perilesional Ring Analysis: Developed a "Ring" mask generation script to capture features at the lesion boundary, where critical biological interactions often occur.Data Integrity Audits: Automated scripts to detect null values, zero-inflation, and near-zero variance features to ensure model robustness.Leakage Prevention: Metadata cleaning that strictly maintains a "one-lesion-per-record" rule, preventing the model from over-fitting on multiple images of the same patient.
+Perilesional Ring Analysis: Developed a "Ring" mask generation script to capture features at the lesion boundary, where critical biological interactions often occur.
+Data Integrity Audits: Automated scripts to detect null values, zero-inflation, and near-zero variance features to ensure model robustness.
+Leakage Prevention: Metadata cleaning that strictly maintains a "one-lesion-per-record" rule, preventing the model from over-fitting on multiple images of the same patient.
 
 ## 📂 Repository StructurePlaintext├── notebooks/
 │   ├── 01_image_analysis.ipynb   # Morphological processing & mask generation
