@@ -1,5 +1,5 @@
 # Multi-View Radiomics for Skin Lesion Classification
-An End-to-End Machine Learning Pipeline for Diagnostic Support
+An End-to-End Machine Learning Pipeline for Cancer Diagnostic Support
 
 ## 🔬 Project Overview
 This repository contains a comprehensive research pipeline designed to classify skin lesions from the HAM10000 dataset. By combining clinical metadata with high-dimensional Radiomics features (extracted from both the lesion core and the perilesional boundary), the project achieves a nuanced understanding of tumor morphology and its surrounding microenvironment.
