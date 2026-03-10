@@ -7,8 +7,8 @@ This repository contains a comprehensive research pipeline designed to classify 
 ## 🚀 Key Analytical Innovations
 This project goes beyond standard "out-of-the-box" modeling by implementing custom quality control and feature engineering 
 
-### steps:
-Hollow-Core Detection 
+### Steps:
+Quality Check
 ### Logic:
 A custom morphological filter that identifies and excludes "thin" or fragmented masks that fail to provide stable textural signals after a $50 \times 50$ pixel erosion.
 
@@ -16,15 +16,8 @@ Perilesional Ring Analysis: Developed a "Ring" mask generation script to capture
 Data Integrity Audits: Automated scripts to detect null values, zero-inflation, and near-zero variance features to ensure model robustness.
 Leakage Prevention: Metadata cleaning that strictly maintains a "one-lesion-per-record" rule, preventing the model from over-fitting on multiple images of the same patient.
 
-## 📂 Repository StructurePlaintext├── notebooks/
-01_image_analysis.ipynb   # Morphological processing & mask generation
-02_radiomics_rf.ipynb     # Feature extraction, cleaning, and RF modeling
-03_data
-04_hollow_core_indices.txt   # Audit trail of excluded outliers
-05_requirements.txt              # Environment dependencies
-06_README.md                     # Project documentation
 
-## 🛠️ Installation & SetupClone the repository:Bashgit clone https://github.com/yourusername/skin-lesion-radiomics.git
+## 🛠️ Installation & SetupClone the repository: Bashgit clone https://github.com/yourusername/skin-lesion-radiomics.git
 
 Install dependencies: Bash pip install -r requirements.txt
 
