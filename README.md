@@ -1,4 +1,4 @@
-# Multi-View Radiomics for Skin Lesion Classification
+# Multi-View Radiomics with Deep Learning for Skin Lesion Classification
 An End-to-End Machine Learning Pipeline for Cancer Diagnostic Support
 
 ## 🔬 Project Overview
