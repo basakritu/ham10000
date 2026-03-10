@@ -17,12 +17,12 @@ Data Integrity Audits: Automated scripts to detect null values, zero-inflation, 
 Leakage Prevention: Metadata cleaning that strictly maintains a "one-lesion-per-record" rule, preventing the model from over-fitting on multiple images of the same patient.
 
 ## 📂 Repository StructurePlaintext├── notebooks/
-│   ├── 01_image_analysis.ipynb   # Morphological processing & mask generation
-│   └── 02_radiomics_rf.ipynb     # Feature extraction, cleaning, and RF modeling
-├── data/
-│   └── hollow_core_indices.txt   # Audit trail of excluded outliers
-├── requirements.txt              # Environment dependencies
-└── README.md                     # Project documentation
+01_image_analysis.ipynb   # Morphological processing & mask generation
+02_radiomics_rf.ipynb     # Feature extraction, cleaning, and RF modeling
+03_data
+04_hollow_core_indices.txt   # Audit trail of excluded outliers
+05_requirements.txt              # Environment dependencies
+06_README.md                     # Project documentation
 
 ## 🛠️ Installation & SetupClone the repository:Bashgit clone https://github.com/yourusername/skin-lesion-radiomics.git
 
